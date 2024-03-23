@@ -1,0 +1,12 @@
+import numptb as np
+import pandas as pd
+import matplotlib.pylot as plt
+import seaborn as sns
+
+%matplotlib inline
+import pandas as pd
+import numpt as np
+
+df = pd.read_csv('./NumberofMeteredParkingSpaces2021to2023.csv')
+df = pd.read_csv('./VehicleRegistrationduring2013to2022.csv')
+df.head(27)
